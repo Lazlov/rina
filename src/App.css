@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@500&display=swap');
+
+
 .App {
   text-align: center;
   
@@ -16,15 +19,20 @@ margin-left: 2.2rem;
 margin-top: 5rem;
 position: absolute}
 
+
+
 #name1 { background-color: rgb(167, 117, 70);
   color:rgb(167, 117, 70);}
   
  #clickedname1 {
+  font-family: 'Playfair Display', serif; 
     background-color: rgb(167, 117, 70);
   color:#a03e83}
    
 #clickedname2 { background-color: rgb(152, 30, 114);
+  font-family: 'Playfair Display', serif; 
    color:#2e9673;
+   
 
 }
 #name2 {
