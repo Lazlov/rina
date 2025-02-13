@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <div className="Main">
       <header className="App-header">
-        <img src={kuromi} className="kuromi"  />
+        <img src={kuromi} className="kuromi" alt="" />
        
         {heartColor && <Heart props={heartColor} className="heart"/>}
         {!heartColor && <HeartStatic onClick={()=>setHeartColor(true)} className="heart"/>}
