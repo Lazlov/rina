@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  
+}
+
+.main {
+  display: flex
+
+}
+
+.kuromi{height: 40vmin
+}
+
+.heart{height: 10vmin;
+margin-left: 2.2rem;
+margin-top: 5rem;
+position: absolute}
+
+#name1 { background-color: rgb(167, 117, 70);
+  color:rgb(167, 117, 70);}
+  
+ #clickedname1 {
+    background-color: rgb(167, 117, 70);
+  color:#a03e83}
+   
+#clickedname2 { background-color: rgb(152, 30, 114);
+   color:#2e9673;
+
+}
+#name2 {
+  background-color:rgb(152, 30, 114);
+  color:rgb(152, 30, 114);}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #962e2e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #a03e83;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(10deg);
+  }
+}
