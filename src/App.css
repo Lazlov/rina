@@ -11,13 +11,19 @@
 
 }
 
-.kuromi{height: 40vmin
+.kuromi {
+  height: 40vh;
+  position: relative; /* Needed for absolute positioning of .heart */
+  display: inline-block;
 }
 
-.heart{height: 10vmin;
-margin-left: 2.2rem;
-margin-top: 5rem;
-position: absolute}
+.heart {
+  height: 9vh;
+  position: absolute;
+  top: 56%;  /* Adjust to position it vertically */
+  left: 52%; /* Adjust to position it horizontally */
+  transform: translate(-50%, -50%); /* Centers the heart on Kuromi */
+}
 
 
 
