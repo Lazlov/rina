@@ -22,8 +22,8 @@ function App() {
         
 
         <p>
-         <span onClick={()=>setChangename1("clickedname1")} id={changename1}>Кате</span>
-         <span onClick={()=>setChangename2("clickedname2")} id={changename2}>рине</span>
+         <span onClick={()=>setChangename1("clickedname1")} id={changename1}>Sen</span>
+         <span onClick={()=>setChangename2("clickedname2")} id={changename2}>ko</span>
         </p>
     
       </header>
